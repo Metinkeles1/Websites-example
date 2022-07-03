@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Final</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container clearfix">
+            <div id="logo-box">
+                <a href="/" class="logo text-uppercase">
+					Makro Gaming
+				</a>
+            </div>
+            <div id="nav-links" class="responsive">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase nav-icon">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase">
+							Oyunlar
+						</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase">
+							Oyun Kurucu Ol
+						</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase">
+							Yardım
+						</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container" id="bg-header">
+            <h1 class="text-uppercase">Makro Gaming</h1>
+            <hr class="star-light">
+            <h2>
+                Oyun Geliştiricileri ve Oyun Kurucuları Hakkında Herşey.
+            </h2>
+        </div>
+    </header>
+
+    <section id="categories">
+        <div class="container">
+            <h2 class="text-uppercase">
+                Kategoriler
+            </h2>
+            <hr class="star-dark">
+
+            <div id="categories-images" class="clearfix">
+                <div class="col">
+                    <div class="categories-item">
+                        <a href="#">
+                            <img class="img-fluid" src="img/valorant_image-2.jpg" alt="">
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="categories-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="img/lol-image-4.jpg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="categories-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="img/forza-img.jpeg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="categories-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="img/cod-image.jpg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <div class="container">
+
+            <h2 class="text-uppercase">
+                İletişim
+            </h2>
+
+            <form id="contact-form">
+
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Ad-Soyad">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="email" placeholder="Email Adresi">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="phone" placeholder="Telefon">
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Mesaj"></textarea>
+                </div>
+
+                <div>
+                    <button class="btn btn-primary">
+						Gönder
+					</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container clearfix">
+            <ul>
+                <li>
+                    <button class="btn btn-outline btn-social">
+							<i class="fab fa-fw fa-facebook-f"></i>
+						</button>
+                </li>
+                <li>
+                    <button class="btn btn-outline btn-social">
+							<i class="fab fa-fw fa-google-plus-g"></i>
+						</button>
+                </li>
+
+                <li>
+                    <button class="btn btn-outline btn-social">
+							<i class="fab fa-fw fa-twitter"></i>
+						</button>
+                </li>
+
+                <li>
+                    <button class="btn btn-outline btn-social">
+							<i class="fab fa-fw fa-linkedin-in"></i>
+						</button>
+                </li>
+                <li>
+                    <button class="btn btn-outline btn-social">
+							<i class="fab fa-fw fa-dribbble"></i>
+						</button>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $('.nav-icon').click(function() {
+            $('#nav-links').toggleClass("responsive");
+            return false;
+        });
+    </script>
+</body>
+
+</html>
