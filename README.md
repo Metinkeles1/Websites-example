@@ -1,5 +1,5 @@
 # Websites-example
-(HTML - CSS) Responsive webpages
+(<a href="https://html.com/">HTML</a> - <a href="https://css-tricks.com/">CSS</a>) Responsive webpages
 
 <hr>
 <img src="projectSS/1.png">
